@@ -1,26 +1,19 @@
 
-# Combine Excel Files Python
+# Combine CSV Files Python
 
 ### Status
-This project is currently work in progress
+This contains materials for a training session
 
 ### About the project
-Concatenate waitlist MDS submissions from multiple csvs for import into warehouse
-
-Link to any refereneces / publications
-
-Note: Only public or dummy data are shared in this repository
+Session aim is to learn how to select specific files from a folder and combine into a single dataframe.
+All files contain dummy data.
 
 ### Project Structure
 
-* The main code is found in the root of the repo
-* Any notes which may be helpful
+* The main code is contained in the root in examples 1 and 2
 
 ### Built with
-List of R / python versions and packages or if these are captured in a requirements file
-
-### Outputs
-If not already described.
+Should work in anaconda base environment.
 
 ### Contributing
 Contributions and identification of issues are welcomed.

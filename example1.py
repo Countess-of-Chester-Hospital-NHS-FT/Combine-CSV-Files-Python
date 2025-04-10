@@ -27,6 +27,8 @@ for i in range(len(filtered_files)):
 #     ignore_index=True
 # )
 
+#######Can do some tests of the combined dataframe here##################
+
 ######## Optionally do things to the dataset here ##############################
 
 #name the index column

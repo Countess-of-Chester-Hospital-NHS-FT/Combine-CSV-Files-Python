@@ -19,7 +19,7 @@ df_files = pd.DataFrame(filtered_files, columns=['filename'])
 df_files = df_files[df_files['filename'].str[-5:-4].str.isdigit()]
 
 # Extract grouping key (first x characters) and sorting key (last x characters before extension)
-df_files['Group'] = df_files['filename'].str[:8]
+df_files['Group'] = df_files['filename'].str[:8] #Group by date
 df_files['SortKey'] = df_files['filename'].str[-5:-4]  # Extracting last x digit before ".txt"
 
 # Convert SortKey to numeric for proper sorting
@@ -40,6 +40,8 @@ combined_df = pd.concat(
     [pd.read_csv(f"{filepath}/{filename}") for filename in final_list],
     ignore_index=True
 )
+
+#######Can do some tests of the combined dataframe here##################
 
 ######## Optionally do things to the dataset here ##############################
 
